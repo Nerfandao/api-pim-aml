@@ -12,13 +12,18 @@ namespace TESTE_API.Infraestrutura
             _context.Funcionarios.Add(funcionarios);
             _context.SaveChanges();
         }
-        public List<Entities.Funcionarios> Get()
+        public List<Entities.Funcionarios?> Get()
         {
             return _context.Funcionarios.ToList();
         }
         public Entities.Funcionarios? GetByEmail(string email)
         {
             return _context.Funcionarios.FirstOrDefault(f => f.email == email);
+        }
+
+        public Entities.Funcionarios GetById(int id)
+        {
+            return _context.Funcionarios.FirstOrDefault(f => f.id_funcionario == id);
         }
 
         public void Delete(int funcionarioId)

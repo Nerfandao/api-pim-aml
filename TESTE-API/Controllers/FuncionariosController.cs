@@ -28,12 +28,19 @@ namespace TESTE_API.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public IActionResult Get()
         {
             var funcionarios = _funcionariosRepository.Get();
 
             return Ok(funcionarios);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var funcionario = _funcionariosRepository.GetById(id);
+
+            return Ok(funcionario);
         }
 
         [HttpDelete("{id}")]
