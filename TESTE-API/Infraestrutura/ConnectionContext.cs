@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TESTE_API.Entities;
 
 namespace TESTE_API.Infraestrutura
 {

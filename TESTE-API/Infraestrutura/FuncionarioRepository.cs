@@ -25,6 +25,10 @@ namespace TESTE_API.Infraestrutura
         {
             return _context.Funcionarios.FirstOrDefault(f => f.id_funcionario == id);
         }
+        public decimal GetSalarioById(int id)
+        {
+            return _context.Funcionarios.Where(f => f.id_funcionario == id).Select(x => x.salario_bruto).FirstOrDefault();
+        }
 
         public void Delete(int funcionarioId)
         {
