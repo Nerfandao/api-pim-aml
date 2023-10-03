@@ -1,11 +1,11 @@
-📄 # Projeto de Gestão de Funcionários e Folhas de Pagamento - Empresa AML
+# 📄 Projeto de Gestão de Funcionários e Folhas de Pagamento - Empresa AML
 Este repositório contém o código-fonte de um projeto desenvolvido como parte do trabalho acadêmico PIM. O projeto foi criado para a empresa AML e tem como objetivo principal a criação de um sistema CRUD (Create, Read, Update, Delete) para gerenciar informações de funcionários e permitir que os funcionários gerem suas próprias folhas de pagamento.
 
-💻 ## Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 Linguagem de Programação: C# .NET
 Frontend: HTML, CSS, JavaScript
 
-🔧 ## Funcionalidades
+## 🔧 Funcionalidades
 O projeto possui as seguintes funcionalidades:
 
 Cadastro de Funcionários: Permite adicionar novos funcionários à base de dados da empresa AML, incluindo informações como nome, cargo, salário, e outros dados relevantes.
@@ -16,7 +16,7 @@ Exclusão de Funcionários: Oferece a capacidade de remover funcionários da bas
 
 Geração de Folhas de Pagamento: Funcionários têm a opção de gerar suas próprias folhas de pagamento, informando o mês desejado. O sistema calculará automaticamente o salário do funcionário e exibirá os detalhes da folha de pagamento.
 
-✔️ ## Pré-requisitos
+## ✔️ Pré-requisitos
 Antes de executar o projeto em sua máquina local, certifique-se de ter instalado:
 
 .NET SDK para executar a aplicação backend.
